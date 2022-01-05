@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainsection{
+    width: 65%;
+    height:290px;
+    background-color: white;
+    margin: 5% auto;
+   
+  
+}
+.mainsection .divs{
+    display: flex;
+    justify-content:flex-start;
+   
+}
+.mainsection .divs div h1{
+   font-size: 42px;
+   border-right: 1.8px solid #3cd4ac;
+   padding: 10% 25%;
+}
+.divs div{
+    width:32%;
+    text-align: center;
+    
+}
+.divs p{
+    text-align: center;
+    margin-top:-2%;
+    font-size: 20px;
+    color: #7a7a7a;
+}
+#myProgress {
+    width: 90%;
+    background-color: #ddd;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 1%;
+}
+
+#myBar {
+    width: 50%;
+    height: 20px;
+    background-color: #3cb4ac;
+    border-radius: 30px;
+    margin-bottom:20px;
+
+}
+@media(max-width:768px){
+    .mainsection{
+        width: 90%;
+        height:400px;
+        margin-top: 15%;
+    } 
+    .mainsection .divs div h1{
+        font-size: 35px;
+    
+     } 
+     .divs p{
+        margin-top:-7%;
+        font-size: 15px;
+    }
+    .mainsection .divs{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .divs div{
+        width: 100%;
+    }
+}
